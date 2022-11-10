@@ -38,4 +38,10 @@ describe('Character', () => {
     expect(newCharacter.hp).toEqual(80);
 });
 
+test('this should return 105 to strength', () => {
+  newCharacter.Wizard();
+  newCharacter.train();
+  expect(newCharacter.strength).toEqual(105);
+});
+
 });
