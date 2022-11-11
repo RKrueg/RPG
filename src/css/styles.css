@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+
+.container{
+    margin-top: 2%;;
+}
