@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<title>RPG</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<div id="playerChooseDiv" class="hidden">
+				<button class="btn btn-info btn-lg" id="wizard" type="click">Wizard</button>
+				<button class="btn btn-info btn-lg" id="archer" type="click">Archer</button>
+				<button class="btn btn-info btn-lg" id="spy" type="click">Spy</button>
+			</div>
+			<div class="hidden" id="displayWizardWeapons">
+				<button class="btn btn-info btn-lg" id="staff" type="click">Staff</button>
+				<button class="btn btn-info btn-lg" id="wand" type="click" value="wand">Wand</button>
+				<button class="btn btn-info btn-lg" id="broom" type="click">Broom</button>
+			</div>
+			<div class="hidden" id="displayArcherWeapons">
+				<button class="btn btn-info btn-lg" id="bow" type="click" value="bow">Bow</button>
+			</div>
+			<div class="hidden" id="displaySpyWeapons">
+				<button class="btn btn-info btn-lg" id="stealth" type="click" value="stealth">Stealth</button>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<div class="hidden" id="displayWarriorAttack">
+					<div class="card">
+						<img src="./assets/images/wizard-wand.jpeg" class="card-img-top" alt="kid with wand">
+						<div class="card-body">
+								<button class="btn btn-info btn-lg" id="wizardWithWand" type="click" value="wizardWithWand">Attack</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6">
+					<div class="hidden" id="displayMonsterAttack">
+					<div class="card">
+						<img src="./assets/images/monster.jpeg" class="card-img-top" alt="kim kardashian">
+						<div class="card-body">
+								<button class="btn btn-info btn-lg" id="monster" type="click" value="monster">Attack</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
